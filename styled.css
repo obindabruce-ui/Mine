@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.h1 {
+    font-size: 2.5rem;
+    color: #543737;
+    margin-bottom: 1rem;
+
+}
+p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}   
+.background-blobs {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 20% 30%, #e0c3fc 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, #8ec5fc 0%, transparent 40%);
+    filter: blur(80px);
+    border-radius: 50%;
+    
+    z-index: -1;
+}
+body {
+    background-color: #f0f2f5;
+    color: #5d95a5;
+    overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+    align-items: center;
+}
+nav {
+    padding: 2rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    width: 100%;
+    
+}
+.logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: -1px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin-left: 2rem;
+}
+nav ul li a {
+    text-decoration: burlywood;
+    color: #555;
+    font-weight: 500;
+    transition: 0.3s;
+}
+nav ul li a:hover {
+    color: #543737;
+}       
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+.glass-card {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: glow(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 2rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.cta-button {
+     padding: 1rem 2rem;
+    border: none;
+    border-radius: 50px;
+    background: #000;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+
+}
+.cta-button:hover {
+    background-color: #5d95a5;
+    transform: scale(1.05);
+}
+h1 span {
+    color: #543737;
+}   
+button {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 50px;
+    background: #000;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+button:hover {
+    background-color: #5d95a5;
+    transform: scale(1.05);
+}
+header {
+    padding: 2rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    width: 100%;
+}
+a {
+    text-decoration: blanchedalmond;
+    color: #555;
+    font-weight: 500;
+    transition: 0.3s;
+    border: 2px solid orange;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+}
+a:hover {
+    color: #543737;
+    background-color: #5d95a5;
+}
